@@ -48,3 +48,29 @@ button{
     background-color: red;
     color: white;
 }
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: red;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+  
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+h5{
+    display: flex;
+}
